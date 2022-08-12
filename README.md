@@ -28,4 +28,9 @@ $ cd server
 $ uvicorn server.main:app --reload
 ```
 
+## What i use
+for backend i use library called `fastapi`
+frontend i use `react` and `tailwindcss` and `axios`
+with `vite` template
+
 > enjoy :)
