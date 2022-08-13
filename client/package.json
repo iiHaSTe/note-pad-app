@@ -11,6 +11,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.8",
     "axios": "^0.27.2",
+    "eruda": "^2.5.0",
     "postcss": "^8.4.16",
     "postcss-nesting": "^10.1.10",
     "react": "^18.2.0",

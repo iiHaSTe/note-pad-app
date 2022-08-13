@@ -9,7 +9,12 @@ module.exports = {
       },
       "fontSize": {
         'xxl': '1.75rem'
-      }
+      },
+      colors: {
+        "black": {
+          "900": "#000"
+        },
+      },
     },
   },
   plugins: [],
