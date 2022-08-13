@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .headerBtn {
+    @apply text-gray-100
+      transition-all
+      p-[7px]
+      bg-gray-900
+      text-xl
+      rounded-md
+      hover:shadow-costom
+      hover:scale-110;
+  }
+  .logo-text {
+    @apply self-center
+      tracking-wide
+      text-xl
+      font-[500]
+      text-gray-100
+      first-letter:text-xxl
+      first-letter:font-[700]
+      first-letter:text-green-400;
+  }
+}

@@ -1,10 +1,12 @@
-import { useState } from "react";
-
+// import { useState } from "react";
+import Header from "$/Header";
+import Editor from "$/Editor";
 
 function App() {
-  return <div className="p-6">
-    Hi
-  </div>;
+  return <>
+    <Header/>
+    <Editor/>
+  </>;
 }
 
 export default App;
