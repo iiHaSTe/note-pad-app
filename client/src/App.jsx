@@ -3,19 +3,17 @@ import Header from "$/Header";
 import Editor from "$/Editor";
 import axios from "axios";
 
-// localStorage
-/*{
-  params: {
-    content: "this is content",
-  },
-}*/
+
 function App() {
   if (!localStorage.getItem("id")) {
-    //useEffect(() => {
-    axios.get("http://127.0.0.1:8000/").then((res) => {
-      console.log(res);
-    });
-    //}, []);
+    /*
+    useEffect(() => {
+      // in this part i have a error. it's my phone :')
+      axios.get("http://127.0.0.1:8000/").then((res) => {
+        console.log(res);
+      });
+    }, []);
+    */
   }
   return (
     <>
