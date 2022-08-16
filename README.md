@@ -11,23 +11,25 @@ $ sh setup.sh
 
 or you using `windows` run this commands:
 ```bash
-# for frontend section
+# frontend part
 $ cd client
 $ yarn
 
-# open new s session and run this
+# backend part (api)
 $ pip install -r requirement.txt
 ```
 
 ## Runnig
 easy just do it (`windows` or `linux`):
 ```bash
+# frontend part
 $ cd client
 $ yarn dev
 
+# backend part (api)
 # open new session and run this
 $ cd server
-$ uvicorn server.main:app --reload
+$ uvicorn main:app --reload
 ```
 
 ## What i use
