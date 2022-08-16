@@ -17,7 +17,6 @@ $ yarn
 
 # open new s session and run this
 $ pip install -r requirement.txt
-$ cd server
 ```
 
 ## Runnig
