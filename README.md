@@ -1,5 +1,8 @@
 # Note app
 
+## Info
+__**This project may not be completed until I purchase a computer. Because I can't complete it on the phone because of the errors that are supposed to not appear. You can only try the frontend part.**__
+
 ## Installation
 if you using `linux` just run this command on your terminal:
 ```bash
